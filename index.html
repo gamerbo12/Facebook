@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"><title>ocialBook Page</title>
+    <body>
+
+<nav>
+    <div class="nav-left">
+        <img src="images/logo2.png" class="logo">
+        <ul>
+            <li><img src="images/notification.png"></li>
+            <li><img src="images/inbox.png"></li>
+            <li><img src="images/video.png"></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Seach">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="images/channel profile.jpg">
+        </div>
+
+    </div> 
+      <!-- settings-menu -->
+    <div class="settings-menu">
+        <div class="settings-menu-inner">
+            <div class="user-profile">
+                <img src="images/channel profile.jpg">
+                <div>
+                    <p>Manny Tutorials</p>
+                    <a href="#">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help Us Improve The New Design</a>
+                </div>
+            </div>
+            <hr>
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessability <img src="images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" width="10px"> </a>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!------------- left-sidebar------------- -->
+    <div class="left-sidebar">
+        <div class="implinks">
+            <a href="#"><img src="images/news.png"> Latest News</a>
+            <a href="#"><img src="images/friends.png"> Friends</a>
+            <a href="#"><img src="images/group.png"> Group</a>
+            <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+            <a href="#"><img src="images/watch.png"> Watch </a>
+            <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+            <p>your Shortcuts</p>
+            <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+            <a href="#"><img src="images/shortcut-2.png">Web Design Course</a>
+            <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+            <a href="#"><img src="images/channel profile.jpg">Website Experts</a>
+        </div>
+    </div>
+    <!------------- main content------------- -->
+    <div class="main-content">
+
+        
+        <div class="story-gallery">
+            <div class="story story1">
+                <img src="images/upload.png">
+                <p>Post story</p>
+            </div>
+            <div class="story story2">
+                <img src="images/member-1.png">
+                <p>Allison</p>
+            </div>
+             <div class="story story3">
+                <img src="images/member-2.png">
+                <p>Jackson</p>
+            </div>
+             <div class="story story4">
+                <img src="images/member-3.png">
+                <p>Samona</p>
+            </div>
+             <div class="story story5">
+                <img src="images/member-4.png">
+                <p>John Doe</p>
+            </div>
+        </div>
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/channel profile.jpg">
+                <div>
+                    <p>Manny Tutorials</p>
+                    <small>Public <i class="fa fa-angle-down"></i></small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on your mind John"></textarea>
+
+                <div class="add-post-links">
+                    <a href="#"><img src="images/live-video.png"> Live Video</a>
+                    <a href="#"><img src="images/photo.png"> Photo/Video</a>
+                    <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/channel profile.jpg">
+                    <div>
+                        <p>Manny Tutorials</p>
+                        <span>June 24 2021, 13:40 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+            </div>
+            
+                <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                <a href="#">#YouTubeChannel</a></p><img src="images/feed-image-1.png" class="post-img">
+        
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/channel profile.jpg" >
+                        </div>
+                    </div>
+
+    </div>
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/channel profile.jpg">
+                <div>
+                    <p>Manny Tutorials</p>
+                    <span>June 24 2021, 13:40 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+        </div>
+        
+            <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+            <a href="#">#YouTubeChannel</a></p><img src="images/advertisement.png" class="post-img">
+    
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/channel profile.jpg" >
+                    </div>
+                </div>
+
+</div>
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="images/channel profile.jpg">
+            <div>
+                <p>Manny Tutorials</p>
+                <span>June 24 2021, 13:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+    </div>
+    
+        <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+        <a href="#">#YouTubeChannel</a></p><img src="images/cover.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/channel profile.jpg" >
+                </div>
+            </div>
+
+</div>
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="images/channel profile.jpg">
+            <div>
+                <p>Manny Tutorials</p>
+                <span>June 24 2021, 13:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+    </div>
+    
+        <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+        <a href="#">#YouTubeChannel</a></p><img src="images/car.jpg" class="post-img" id="img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/channel profile.jpg" >
+                </div>
+            </div>
+
+</div>
+<div class="post-container">
+    <div class="post-row">
+        <div class="user-profile">
+            <img src="images/channel profile.jpg">
+            <div>
+                <p>Janny Tutorials</p>
+                <span>June 24 2021, 13:40 pm</span>
+            </div>
+        </div>
+        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+    </div>
+    
+        <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+        <a href="#">#YouTubeChannel</a></p><img src="images/banner.jpg" class="post-img" id="img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">45</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post-profile-icon">
+                    <img src="images/channel profile.jpg" >
+                </div>
+            </div>
+
+</div>
+    <div class="post-container">
+        <div class="post-row">
+            <div class="user-profile">
+                <img src="images/channel profile.jpg">
+                <div>
+                    <p>Manny Tutorials</p>
+                                        <span>December 19th 2022, 6:22 pm</span>
+                </div>
+            </div>
+            <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+        </div>
+        
+            <p class="post-text">Like all my videos and subscribe to my channel <span>@MannyTutorials </span>Comment on your thought's if you like the website layout and the similarities between social book and face book. Visit me on other Paltform Instagram <span> #Mannytutorial</span> Twitter <span> @MannyTutorials</span> <a href="#">MannyTutorials</a>
+            <a href="#">#YouTubeChannel</a></p><img src="images/feed-image-2.png" class="post-img">
+    
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">10k</div>
+                        <div><img src="images/comments.png">2k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/channel profile.jpg" >
+                    </div>
+                </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/channel profile.jpg">
+                            <div>
+                                <p>Manny Tutorials</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    
+                        <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                        <a href="#">#YouTubeChannel</a></p><img src="images/feed-image-3.png" class="post-img">
+                
+                            <div class="post-row">
+                                <div class="activity-icons">
+                                    <div><img src="images/like-blue.png">120</div>
+                                    <div><img src="images/comments.png">45</div>
+                                    <div><img src="images/share.png">20</div>
+                                </div>
+                                <div class="post-profile-icon">
+                                    <img src="images/channel profile.jpg" >
+                                </div>
+                            </div>
+            </div>  
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/channel profile.jpg">
+                        <div>
+                            <p>JManny Tutorials</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                    <a href="#">#YouTubeChannel</a></p><img src="images/background.jpg" class="post-img" id="img">
+            
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/channel profile.jpg" >
+                            </div>
+                        </div>
+            
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/channel profile.jpg">
+                        <div>
+                            <p>JManny Tutorials</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                    <a href="#">#YouTubeChannel</a></p><img src="images/background.png" class="post-img" id="img">
+            
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/channel profile.jpg" >
+                            </div>
+                        </div>
+            
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/channel profile.jpg">
+                        <div>
+                            <p>JManny Tutorials</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                    <a href="#">#YouTubeChannel</a></p><img src="images/image.jpg" class="post-img" id="img">
+            
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/channel profile.jpg" >
+                            </div>
+                        </div>
+            
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/channel profile.jpg">
+                        <div>
+                            <p>Manny Tutorials</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                    <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                    <a href="#">#YouTubeChannel</a></p><img src="images/feed-image-4.png" class="post-img">
+            
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="images/like-blue.png">120</div>
+                                <div><img src="images/comments.png">45</div>
+                                <div><img src="images/share.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/channel profile.jpg" >
+                            </div>
+                        </div>
+        </div> 
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/channel profile.jpg">
+                    <div>
+                        <p>Manny Tutorials</p>
+                        <span>June 24 2021, 13:40 pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+            </div>
+            
+                <p class="post-text">Subscribe <span>@Manny Tutorials</span> Youtube Channel to view more and learn how to make amazing webpages like this. <a href="#">MannyTutorials</a>
+                <a href="#">#YouTubeChannel</a></p><img src="images/feed-image-5.png" class="post-img">
+        
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/channel profile.jpg" >
+                        </div>
+                    </div>
+    </div>  
+
+
+    <button type="button" class="load-more-btn"><a href="index1.html"> <span> Load More</span></a></button>
+
+    
+        </div>
+    <!------------- right-sidebar------------- -->
+    <div class="right-sidebar">
+
+        <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <i class="fa fa-location-dot"></i><p>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p>Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+                </div>
+                <img src="images/advertisement.png" class="sidebar-ads">
+
+                <div class="sidebar-title">
+                    <h4>Conversations</h4>
+                    <a href="#">Hide Chat</a>
+                    </div>
+
+
+
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/member-1.png" alt="">
+                        </div>
+                        <p>Alisson Mina</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/member-2.png" alt="">
+                        </div>
+                        <p>Jackson Aston</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="images/member-3.png" alt="">
+                        </div>
+                        <p>Samona Rose</p>
+                    </div>
+
+
+        </div>
+    </div>
+<div class="footer">
+    <p>Copyright 2022 - Manny Tutorials YouTube Channel</p>
+</div>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/e34d39ed17.js" crossorigin="anonymous"></script>
+</body>
+</html>miminecr   
